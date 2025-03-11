@@ -1,0 +1,61 @@
+# Python bytecode files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Virtual environments
+venv/
+env/
+ENV/
+.env
+.venv
+
+# Project-specific directories with user data
+data/
+results/
+
+# Except keep the directory structure
+!data/.gitkeep
+!results/.gitkeep
+
+# Stimulus images in static directory (except example/testing images)
+static/*
+!static/.gitkeep
+!static/images
+
+# MediaPipe/TensorFlow cache
+.mediapipe/
+.tensorflow/
+
+# IDE files
+.idea/
+.vscode/
+*.sublime-*
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+.directory
+
+# Logs
+*.log
+logs/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Testing
+.coverage
+htmlcov/
+
+# Environment configuration
+.env
+.env.local
+.env.development
+.env.test
+.env.production 
